@@ -5,7 +5,7 @@ in S to return total sum as N, example: [1,1,1,1], [2,2], [1,3] and [1,1,2] so o
 
 
 def count_change_coin(S, n, size):
-    
+
     table = [0 for i in range(n + 1)]
     table[0] = 1
 
